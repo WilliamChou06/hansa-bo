@@ -14,9 +14,9 @@ const Wrapper = styled.footer`
 
 const Footer = () => (
   <Wrapper data-testid="footer">
-    Copyright &copy; 2018. All right reserved. Pictures by Unsplash.{' '}
-    <a href="https://github.com/LekoArts/gatsby-starter-portfolio-emma">Emma Theme</a> {' by '}{' '}
-    <a href="https://www.lekoarts.de/en">LekoArts</a>.
+    Copyright &copy; 2019. Todos los derechos reservados.{' '}
+    <a href="http://hansa.com.bo/automotriz">Hansa Automotriz </a> {' by '}{' '}
+    <a href="https://www.creando.com.bo">Creando Web Consulting</a>.
   </Wrapper>
 )
 
