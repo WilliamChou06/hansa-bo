@@ -10,6 +10,7 @@ const Wrapper = styled.header`
   padding: 1rem 0 1rem 0;
   position: relative;
   z-index: 1000;
+  background-color: #003c79;
   a {
     color: ${props => props.theme.colors.black};
     text-decoration: none;
@@ -96,6 +97,7 @@ const Navigation = () => (
               to={nav.node.fields.slug}
               data-testid={`navItem-${index}`}
               activeClassName="nav-active"
+              style={{color: '#fff'}}
             >
               {nav.node.frontmatter.title}
             </Link>
@@ -103,7 +105,7 @@ const Navigation = () => (
         </Nav>
         <Name>
           <Link to="/" data-testid="home-title-link">
-            {config.siteTitle}
+            <img title="hansa" alt="hansa-logo" src="http://www.hansa.com.bo/images/logo.png" />
           </Link>
         </Name>
         <SocialMedia>
@@ -113,7 +115,7 @@ const Navigation = () => (
             rel="noopener noreferrer"
             aria-label="Facebook"
           >
-            <FaFacebook />
+            <FaFacebook style={{color: '#fff'}} />
           </a>
           {/* <a href="https://www.behance.net/lekoarts" target="_blank" rel="noopener noreferrer" aria-label="Behance">
             <FaBehance />
